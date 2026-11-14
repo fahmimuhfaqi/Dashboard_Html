@@ -1,0 +1,32 @@
+# Monitoring KPI Sales IndiHome
+
+Dashboard satu layar penuh untuk memantau performa sales IndiHome di 46 WOK (Kalimantan, Sulawesi, Papua Maluku).
+
+> ⚠️ Semua angka di dashboard ini adalah **data dummy** untuk keperluan portofolio.
+
+![Preview dashboard](preview.png)
+
+## Fitur
+
+- Peta performa per regional (garis pantai Natural Earth), warna mengikuti achievement, plus titik 46 WOK berdasarkan kategori KPI
+- Total PS dan ring achievement, Growth MoM & YoY, rata-rata tagihan, jumlah WOK capai target
+- Trend penjualan harian (smooth line) vs bulan lalu dan target harian
+- Kontribusi PS per regional (donut) dan perbandingan MoM Actual PS per regional
+- Ranking WOK dengan tagihan tertinggi
+- Tabel performa per WOK dengan sort Achievement / MoM / YoY / Tagihan / PS
+- Kategori KPI A–E (A ≥100%, B 95–99,9%, C 90–94,9%, D 85–89,9%, E <85%)
+- Filter regional interaktif, layout 16:9 auto-scale, tombol layar penuh
+
+## Tech
+
+HTML, CSS, dan JavaScript murni (tanpa framework atau library chart). Semua chart dibuat dengan SVG.
+Versi produksinya berjalan di Google Apps Script dengan Google Sheets sebagai sumber data.
+
+## Menjalankan
+
+Buka `index.html` langsung di browser, atau aktifkan GitHub Pages:
+**Settings › Pages › Source: Deploy from a branch › main / (root)**.
+
+## Kredit
+
+Data garis pantai: [Natural Earth](https://www.naturalearthdata.com/) (public domain).
